@@ -83,11 +83,11 @@ sub_res = cl.sub(8,4)
 mul_res = cl.mul(8,4)
 div_res = cl.div(8,4) """
 
-#????
-#import mod.circle_mod as cm
-#print(cm.pi)
-#print(cm.cc_area(4))
-#print(cm.cc_len(5))
+
+""" import mod.circle_mod as cm
+print(cm.pi)
+print(cm.cc_area(4))
+print(cm.cc_len(5)) """
 
 """ def cutstr(st,wd,idx):
     tmp=st.split(wd)
@@ -118,9 +118,9 @@ print(pi_res)
 fc_res = math.factorial(4)
 print(fc_res) """
 
-import mod.utils as mu
+""" import mod.utils as mu
 
-res = mu.mt_sprt(7)
+res = mu.mt_sqrt(7)
 print(res)
 sin = mu.mt_sinpi()
 print(sin)
@@ -129,7 +129,7 @@ print(el)
 ep = mu.mt_exp(3)
 print(ep)
 pi = mu.mt_pi()
-print(pi)
+print(pi) """
 
 """ import random as rd
 res = rd.randint(1,100)
