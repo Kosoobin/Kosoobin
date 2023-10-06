@@ -118,7 +118,7 @@ def bubble_sort(arr):
 lrr = [1,9,2,7,5]
 print(bubble_sort(lrr)) """
 
-#퀵
+""" #퀵
 def quick_sort(arr):
     if len(arr) <= 1:
         return arr
@@ -137,4 +137,59 @@ def quick_sort(arr):
 my_list = [1,9,6,4,5,7,3,2]
 print(len(my_list))
 sorted_list=quick_sort(my_list)
-print(sorted_list)
+print(sorted_list) """
+
+""" import requests
+res = requests.get('<https://www.google.com>')
+print(res)
+print(res.content) """
+
+""" import numpy as np
+a = np.array([1,2,3])
+print(a)
+
+b= np.zeros((2,3))
+print(b)
+
+c = np.ones((2,3))
+print(c)
+
+d=np.array([1,2,3])
+e=np.array([4,5,6])
+
+f=d+e
+g=d-e
+h=d*e
+i=d/e
+
+print(f)
+print(g)
+print(h)
+print(i) """
+
+""" import pandas as pd
+
+data = {'Name': ['John', 'Jane', 'Mike', 'Sarah'],
+        'Age': [25, 30, 35, 40],
+        'City': ['New York', 'Los Angeles', 'Chicago', 'Houston']}
+
+df= pd.DataFrame(data)
+print(df['Age'].describe())
+print(df.sort_valuezs(by='Age',ascrending=False))
+print("=============")
+print(df.sort_values(by='Age',ascending=True))
+print("=============")
+print(df.sort_value(by='Name',ascending=True)) """
+
+""" import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4, 5]
+y = [10, 8, 6, 4, 2]
+
+plt.plot(x, y)
+
+plt.xlabel('time')
+plt.ylabel('n')
+plt.title('python')
+
+plt.show() """
